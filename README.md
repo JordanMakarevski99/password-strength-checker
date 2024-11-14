@@ -1,24 +1,22 @@
-# emit-exercise-1
+Password Strength Checker
 
-## Project setup
-```
-npm install
-```
+This is an app that checks the strength of a password. It gives feedback on how strong the password is and suggests ways to make it better. The app also checks if the password is too weak, contains common patterns, or is too similar to the username.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Features
+- Check password strength (weak, moderate, good, strong).
+- Shows suggestions to improve password strength.
+- Warns if the password is too short or too common.
+- Check if the password matches the username.
+- Option to show/hide password using a checkbox.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+Setup
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Clone the Repository
+- git clone https://github.com/JordanMakarevski99/password-strength-checker.git
+
+2. Install dependencies
+- npm install
+
+3. Run the App
+- npm run serve
